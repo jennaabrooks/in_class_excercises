@@ -236,7 +236,7 @@ ggplot(data = tea_data_highn_shuffled %>% filter(sim==3),  # can change the actu
                geom = "point",
                shape = 21,
                color = "black",
-               fill = "white")d + 
+               fill = "white") + 
   scale_y_continuous(breaks = 0:10,
                      labels = 0:10,
                      limits = c(0, 10))
